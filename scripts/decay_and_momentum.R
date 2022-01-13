@@ -62,12 +62,7 @@ contacts.GAM.filtered.means =
   arrange(chrom_x, bindist) 
 
 
-
-
-
-
-
-#### SPRTE
+#### SPRITE
 read_sprite = function(fn){
   mat= read_tsv(fn, col_names = c("chrom_x", "start_x", "end_x","chrom_y", "start_y", "end_y", "SPRITE"))
   lng = mat %>% 
